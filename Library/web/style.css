@@ -1,0 +1,209 @@
+
+
+  
+
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #0285CE;
+}
+
+a:hover {
+}
+
+
+#admin_header{
+    
+}
+
+  #header {
+    background: url("images/img01.jpg") repeat scroll 0 0 transparent;
+    height: 100px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+#logo{
+    margin-left: 325px;
+    padding: 35px;
+    
+    width: 200px;
+
+}
+#right_out{
+    float: right;
+    height: 20px;
+    
+}
+
+
+#menu-wrapper {
+   
+    height: 54px;
+    margin: 0 auto;
+    width: 81%;
+    padding-left: 155px;
+   
+}
+menu {
+    background: url("images/1.g") repeat-x scroll left top #000000;
+    height: 27px;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+}
+#menu ul {
+    line-height: normal;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+	float: left;
+	
+}
+
+#menu a {
+    border: medium none;
+    color: #B5B5B5;
+    display: block;
+    font-family: 'Arvo',serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 55px;
+    padding: 0 24px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menu a:hover, #menu .current_page a {
+	background: #0193CC;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+
+#admin_table{
+    background-color: white;
+    border-radius: 5px; 
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 40px;
+    
+}
+
+#member_table{
+    background-color: white;
+    border-radius: 5px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 10px;
+       
+}
+
+#ab{
+    background-color: seashell;
+}
+
+
+#content {
+   background: url("images/background.png") repeat scroll 0 0 #181818;
+
+    background-color: #B5B5B5;;
+    margin: 0 auto;
+    min-height: 237px;
+    width: 100%;
+}
+
+
+#content h3 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#content h2 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#content tr{
+    color: white;
+}
+
+#content tbody{
+    margin-top: 20px;
+    background-color:teal;
+    border: red;
+    border-width: 3px;
+    text-align: center;
+}
+
+#left {
+    background-color: snow;
+    float: left;
+    min-height: 237px;
+    width: 40%;
+}
+
+#left p{
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-right: 7px;
+    padding-bottom: auto;
+        
+}
+#right {
+    background-color: #181B20;
+    float: right;
+    min-height: 237px;
+    width: 50%;
+}
+
+#contact{
+background-color: palegoldenrod;    
+}
+#contact_header {
+    background-color: oldlace;
+    border-radius: 5px 5px 5px 5px;
+    height: 100%;
+    margin: 117px auto 0;
+    padding: 10px;
+    width: 50%;
+    text-align: justify;
+}
+#abc{
+    background-color: red;
+    height: 200px;
+    width: 70%;
+}
+
+#contact_content table{
+    background-color: red;
+    
+}
+
+
+#footer {
+    background-color: #565758;
+    margin: 0 auto;
+    min-height: 50px;
+    padding-top: 40px;
+    padding-left: 200px;
+    font-size: 1.5em;
+}

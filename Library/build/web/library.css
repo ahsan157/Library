@@ -1,0 +1,180 @@
+/* 
+    Document   : library
+    Created on : May 31, 2013, 8:38:09 PM
+    Author     : sms
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+h2{
+    text-align: center;
+    color: #foffoo;
+}
+h4{
+    text-align: center;
+    color: red;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #181818 url(images/background.png) repeat;
+    color: #181B20;
+    font-family:arial, verdana, sans-serif;
+    font-size:14px;
+
+}
+#header {
+
+    height: 130px;
+    widows: 100;
+    background: url(images/img01.jpg);
+}
+
+#logo{
+    margin-left: 400px;
+    padding: 30px;
+
+
+
+    height:100px;
+    width: 200px;
+
+}
+#logo h1{
+    margin-left:25px;
+    padding: 0 0 0 0;
+    color: #323232;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+
+#menu{
+    height: 70px;
+    background-color:black;
+    width: 50;
+    margin: 0px auto;
+    text-align: center;
+}
+#menu ul{
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    list-style: none;
+    line-height: normal;
+
+}
+
+#menu ul li {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+}
+#menu a {
+    position: relative;
+    display: block;
+    float: left;
+    height: 60px;
+    margin: 0px;
+    padding: 0px 20px 0px 20px;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Arvo', serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #B5B5B5;
+    border: none;
+
+
+}
+
+#menu a:hover {
+    background: #FFA800;
+    text-decoration: none;
+    color: #008400;
+    background: url(images/hover.jpg) bottom no-repeat;
+}
+
+#menu a:visited {
+    background: #FFA800;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+
+
+#left{
+
+    background: #FFFFFF url(images/content-bg-bottom.png) no-repeat left bottom;
+
+    height: 300px;
+    width: 40%;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+#right
+{
+    float: right;
+    width: 50%px;
+    height: 300%px;
+    background:#FFFFFF url(images/content-bg-bottom.png) no-repeat left bottom ;
+    margin-top: 20px;
+    margin-right: 20px;
+
+
+}
+
+#footer {
+    height: 70px;
+    width: 100;
+    clear: left;
+    background: #546778;
+    margin-top: 20px;
+}
+
+#slider {
+    position: relative;
+    width: 300px;
+    margin: 0px auto 0px auto;
+}
+
+#slider .viewer {
+    width: 400px;
+    height: 320px;
+    margin: 0 auto;
+}
+
+#slider .viewer .reel {
+    display: none;
+    height: 320px;
+}
+
+#slider .viewer .reel .slide {
+    position: relative;
+    width: 400px;
+    height: 320px;
+}
+
+#id book_left{
+    width: 70%;
+    color: #000000;
+    
+    
+}
+

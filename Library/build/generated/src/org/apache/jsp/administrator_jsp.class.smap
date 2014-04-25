@@ -1,0 +1,14 @@
+SMAP
+administrator_jsp.java
+JSP
+*S JSP
+*F
++ 0 administrator.jsp
+administrator.jsp
+*L
+1,46:44
+47,3:91
+49,3:94
+51,2:97
+52,11:99
+*E
